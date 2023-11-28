@@ -1,9 +1,10 @@
-export default function iterateThroughObject(reportWithIterator) {
-    const employees = [];
+// 101. Iterate Through an Object with a for...of Statement
+  export default function iterateThroughObject(reportWithIterator) {
+    let string = '';
   
-    for (const employee of reportWithIterator) {
-      employees.push(employee);
+    for(const employee of reportWithIterator) {
+      string += employee + ' | '; 
     }
   
-    return employees.join(' | ');
+    return string.slice(0, -3);
   }
