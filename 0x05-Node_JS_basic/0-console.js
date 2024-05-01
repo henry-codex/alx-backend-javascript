@@ -1,0 +1,10 @@
+/**
+ * Displays a message on the STDOUT.
+ * @param {String} msg The message to display.
+ * @author Henry Tetteh <https://github.com/henry-codex>
+ */
+const displayMessage = (msg) => {
+  console.log(msg);
+};
+
+module.exports = displayMessage;
